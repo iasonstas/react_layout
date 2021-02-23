@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import './PostForm.scss';
 // Regex for better performance out of PostForm scope.
 const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-const phoneRegex = /^((\+30\d{10})|(69[0-9]{8}))$/;
+const phoneRegex = /^((\+30\d{10})|(69[0-9]{8})|(2[0-9]{9}))$/;
 const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/;
 
 export default function PostForm({ labels }) {
