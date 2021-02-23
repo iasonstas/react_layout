@@ -1,0 +1,33 @@
+@import 'assets/styles/global.scss';
+
+.navbar-navo {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-left: 0;
+  list-style: none;
+
+  .nav-itemo {
+    a {
+      &:visited {
+        color: rgb(0, 145, 202);
+      }
+    }
+
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  margin-top: 0.3rem;
+  background-color: skyblue;
+  box-shadow: skyblue 0px 0px 2px;
+  border-radius: 50%;
+  display: inline-block;
+}
