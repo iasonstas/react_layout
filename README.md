@@ -1,6 +1,6 @@
-First of all we cd into the project and execute in our terminal
+Cd into the project and execute in our terminal
 
-# ~$npm install
+## ~$npm install
 
 Cd into the project and execute in terminal npm install to install dependencies
 
@@ -23,7 +23,6 @@ and basic routing with 'react-router-dom'.
 
 ## SCSS
 
-Enterprise projects could have a folder with scss or css that can be handled by a css developer
 For this project I chose the approach:
 Scss in the same folder with the component.
 Like Next css with folder structure /styles/<name>.module.css
@@ -32,11 +31,11 @@ It can be done with styles.jsx(Main Folder) || styled-components || Tailwind || 
 ## Constants
 
 Every object with constant value is not in the scope of a function, because it slows down the performace of the app due to rerendering.
-example: Regexes in post form.
+example: Regex in post form.
 
-## Coding friendly
+## Programmer friendly
 
-Splitting my code into smaller files improving code flow and readability coul help debugging also.
+Splitting code into smaller files improving code flow and readability could help debugging also.
 
 ## SEO friendly
 
@@ -47,7 +46,7 @@ Also React Helmet is a cleaner way of achieving the same result.
 
 ## Responsive
 
-Responsive preparation for most cases. For better results it would take more time to test every page + component
+Responsive preparation for most cases.
 
 ## Dependencies
 
@@ -68,12 +67,8 @@ Dependencies where checked based on Bundlephovia and also weekly Download + Star
     "@testing-library/react"
     "web-vitals": "^1.1.0"              Modular library for measuring all the Web Vitals metrics.
 
-## Unit Testing
-
-I did not proceed with Unit Testing (jest) because it was not referenced and the time was short. React & Next has a specific react-testing-library by kent c dodds. So here are some snapshots from the web app.
+No Unit Testing (jest). React & Next has a specific react-testing-library by kent c dodds. So here are some snapshots from the web app.
 
 ## Proptypes
-
-I have not used in every compononet prop-types due to time restrictions.
 
 ## Source-code editor: Vscode | Webstorm (prettier , eslint)
