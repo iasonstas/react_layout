@@ -66,7 +66,7 @@ Dependencies where checked based on Bundlephovia and also weekly Download + Star
     "@testing-library/react"
     "web-vitals": "^1.1.0"              Modular library for measuring all the Web Vitals metrics.
 
-No Unit Testing (jest). React & Next has a specific react-testing-library by kent c dodds. So here are some snapshots from the web app.
+There are no Unit Testing for this project yet. React has a specific react-testing-library by Kent C Dodds. So here are some snapshots from the web app.
 
 ## Proptypes
 
