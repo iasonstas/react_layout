@@ -6,10 +6,9 @@ Cd into the project and execute in terminal npm install to install dependencies
 
 ## ~$npm start
 
-After npm start-> ctrl + click (vscode/webstorm) -> [http://localhost:3000]
+After npm start -> [http://localhost:3000]
 
-All the external libraries which are used have huge amount of weekly downloads in npm
-and have been checked on BundlePhobia to for most optimal bundle size.
+All the external libraries are checked.
 
 Structure >
 
