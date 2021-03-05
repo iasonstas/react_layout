@@ -5,6 +5,7 @@ import Home from 'pages/Home';
 import PageTwo from 'pages/PageTwo';
 import WithLayoutRoute from './WithLayoutRoute';
 import NotFound from 'pages/NotFound';
+import Tournament from 'pages/Tournament';
 
 // Handling of the routing with a Layout That adds Head + Nav + Main  and not found - 404 page.
 
@@ -15,6 +16,7 @@ export default function Routes() {
       <WithLayoutRoute component={PageTwo} head={'Page'} exact layout={MainLayout} path="/page-2" />
       <WithLayoutRoute component={Home} exact layout={MainLayout} path="/section-one" />
       <WithLayoutRoute component={Home} exact layout={MainLayout} path="/section-two" />
+      <Route component={Tournament} exact path="/tournament" />
       <Route component={NotFound} path="/not-found" />
       <Redirect to="/not-found" />
     </Switch>
